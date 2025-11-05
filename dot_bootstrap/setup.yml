@@ -27,8 +27,8 @@
           - fzf
           - tmux
           - ffmpeg-free
-          - zlib
-          - zlib-devel
+          # - zlib
+          # - zlib-devel
           - make
           - wl-clipboard
           - fd-find
