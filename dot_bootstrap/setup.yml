@@ -23,7 +23,7 @@
           - gh
           - gnome-tweaks
           - gcc
-          - zsh
+          # - zsh
           - fzf
           - tmux
           - ffmpeg-free
@@ -39,10 +39,10 @@
           - unar
         state: present
 
-    - name: Change shell to zsh
-      ansible.builtin.user:
-        name: "{{ remote_regular_user }}"
-        shell: /usr/bin/zsh
+    # - name: Change shell to zsh
+    #   ansible.builtin.user:
+    #     name: "{{ remote_regular_user }}"
+    #     shell: /usr/bin/zsh
 
 
     # - name: Add Brave Browser Repo
